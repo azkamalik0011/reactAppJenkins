@@ -1,0 +1,8 @@
+version '3'
+
+services:
+  reactjs:
+    image: react:1.1
+    container_name: jenkins-reactjs
+  ports:
+    - "3000:8080"
