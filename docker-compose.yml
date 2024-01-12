@@ -5,4 +5,4 @@ services:
     image: react:1.1
     container_name: jenkins-reactjs
     ports:
-      - "3000:8080"
+      - "3000:80"
